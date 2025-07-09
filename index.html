@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕ Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Make your day great with our special coffee!</h3>
+                    <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="https://image.similarpng.com/file/similarpng/original-picture/2021/06/Coffee-cup-and-coffee-beans-on-transparent-background-PNG.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+        <!-- About section -->
+        <section class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="https://jacoblund.com/cdn/shop/products/photo-id-4616317272133-female-friends-enjoying-at-a-coffee-shop.jpg?v=1605627177" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Coffee House in Berndorf, Germany, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Menu section -->
+        <section class="menu-section">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="https://png.pngtree.com/png-vector/20250109/ourmid/pngtree-latte-art-with-coffee-beans-beautifully-presented-in-a-creamy-design-png-image_15125017.png" alt="Hot Beverages" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Hot Beverages</h3>
+                            <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/035/906/997/small/ai-generated-iced-coffee-splash-in-a-cup-with-coffee-beans-free-png.png" alt="Cold Beverages" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Cold Beverages</h3>
+                            <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="https://static.vecteezy.com/system/resources/previews/055/533/453/non_2x/refreshing-summer-drinks-with-ice-fruits-and-mint-on-a-bright-transparent-background-for-a-vibrant-seasonal-vibe-summer-drinks-with-ice-on-transparent-background-free-png.png" alt="Refreshment" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Refreshment</h3>
+                            <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/054/065/241/small/realistic-hot-dog-illustration-isolated-on-transparent-background-png.png" alt="Special Combos" class="menu-image">
+                        <h3 class="name">Special Combos</h3>
+                        <p class="text">Your favourite eating and drinking combations.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="https://png.pngtree.com/png-vector/20240225/ourmid/pngtree-chocolate-ice-cream-in-the-white-glass-bowl-ai-generated-png-image_11875876.png" alt="Dessert" class="menu-image">
+                        <h3 class="name">Dessert</h3>
+                        <p class="text">Satiate your palate and take you on a culinary treat.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="https://png.pngtree.com/png-vector/20240726/ourmid/pngtree-tasty-burger-and-fries-isolated-on-transparent-background-png-image_13236874.png" alt="Burger & French Fries" class="menu-image">
+                        <h3 class="name">Burger & French Fries</h3>
+                        <p class="text">Quick bites to satisfy your small size hunger.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Testimonials section -->
+        <section class="testimonials-section">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="https://thumbs.dreamstime.com/b/woman-lady-positive-coffee-asin-drink-cup-stain-expression-lovely-pretty-teen-model-holding-mug-woman-lady-positive-coffee-385783207.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sarah Johnson</h3>
+                                <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="https://media.istockphoto.com/id/1158865040/photo/businessman-drinking-coffee-and-looking-at-laptop-while-sitting-in-cafe.jpg?s=612x612&w=0&k=20&c=V5UJE9Vff9G1kXLb6xfG6EVupKY2fOyFWJ5N8PXpYQM=" alt="User" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"Great espresso blend! Smooth and bold flavor. Fast shipping too!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="https://media.istockphoto.com/id/1300966514/photo/handsome-man-reading-newspaper-in-cafe.jpg?s=612x612&w=0&k=20&c=3URYp1eGG5KfzVxNqnV7zDP3AlkRbaWDHzC6nI2WQNU=" alt="User" class="user-image">
+                                <h3 class="name">Michael Brown</h3>
+                                <i class="feedback">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="https://www.shutterstock.com/image-photo/portrait-beautiful-young-woman-reading-600nw-2497394153.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly recommend."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="https://i0.wp.com/fashionablymale.net/wp-content/uploads/2024/11/A-Deep-Dive-into-SkyCrown-Casino-Game-Library-cover.jpg?fit=696%2C392&ssl=1" alt="User" class="user-image">
+                                <h3 class="name">Anthony Thompson</h3>
+                                <i class="feedback">"Best decaf I've tried! Smooth and flavorful. Arrived promptly."</i>
+                            </li>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-slide-button swiper-button-prev"></div>
+                            <div class="swiper-slide-button swiper-button-next"></div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery section -->
+        <section class="gallery-section">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="https://blog.swiggy.com/wp-content/uploads/2024/10/Image-2_Decaf-1024x538.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://www.savoryexperiments.com/wp-content/uploads/2014/03/Potato-Egg-and-Sausage-Skillet-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH9e6a57OEQCz2oKqFhiLlFYCpquyBoUSxaw&s" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYD1YU5q0swBfzcT2tZiLtz0DDwPQYnw1eYg&s" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://www.mydelicious-recipes.com/home/images/120_1200_1200/mydelicious-recipes-masala-dosa-with-batter" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://www.marthastewart.com/thmb/Vgb9cQSlegZz5fcoSbkkqyHPmHY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/338185-basic-pancakes-09-00b18f8418fd4e52bb2050173d083d04.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+            <!-- Contact section -->
+        </section>
+        <section class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Campsite Avenue, Wilderness, CA 98765</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@coffeeshopwebsite.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 456-78909</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: Closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.codingnepalweb.com</p>
+                    </li>
+                </ul>
+                <form action="" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="button submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
